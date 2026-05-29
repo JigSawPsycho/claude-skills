@@ -1,0 +1,18 @@
+{
+  "name": "byteblast-skills",
+  "owner": {
+    "name": "Mike Evans",
+    "email": "mike@byteblast.co"
+  },
+  "metadata": {
+    "description": "Personal Claude Code skills marketplace — pull/push to share and update skills across machines.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "git-tools",
+      "source": "./plugins/git-tools",
+      "description": "Git workflow skills, starting with git-catchup (summarize branch changes since your last commit)."
+    }
+  ]
+}
